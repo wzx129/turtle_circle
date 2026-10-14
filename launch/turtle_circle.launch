@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" output="screen"/>
+  <node pkg="turtle_circle" type="turtle_circle_node" name="turtle_circle" output="screen">
+    <param name="period" value="4.0"/>
+    <param name="amplitude" value="1.0"/>
+  </node>
+</launch>
